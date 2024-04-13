@@ -1,19 +1,19 @@
-let count = 0; // Initialize count to 0
+let count = 0; //Initialize the count by 1
 function increaseCount() {
-    count++; // Increment the count by 1
-  }
-function displayCount() {
-    document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
+    count++; //Increments the count by 1
 }
+function displayCount() {
+    document.getElementById('countDisplay').innerHTML=count; //Display the followers count in HTML
+ }
 function increaseCount() {
-    count++; // Increment the count by 1
-    displayCount(); // Display the count
-    checkCountValue(); // Check count value and display messages
-  }
-  function checkCountValue() {
+    count++; // Increase the count by 1
+    displayCount(); // Displays the count
+    checkCountValue(); // Check count value and displays message
+}
+function checkCountValue() {
     if (count === 10) {
-      alert("Your Instagram post gained 10 followers! Congratulations!");
+        alert("Your Instagram post gained 10 followers! Congratulations!");
     } else if (count === 20) {
-      alert("Your Instagram post gained 20 followers! Keep it up!");
+        alert ("Your Instagram post gained 20 followers! Congratulations!");
     }
-  }
+}
